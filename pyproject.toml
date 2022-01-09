@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "responsive-navbar-in-flask"
+version = "0.1.0"
+description = "Responsive navigation bar in a flask app using Bootstrap"
+authors = ["Paul Marsh <61422343+PTMGitHub@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.0.2"
+flask-nav = "^0.6"
+Flask-Bootstrap = "^3.3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
